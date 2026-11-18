@@ -1,0 +1,8 @@
+{
+ "ecues": {
+  "maths/S1/APIS": "Analyse : primitives, intégrales et suites",
+  "physique/S1/Mécanique": "Mécanique",
+  "algo/S1/TAA": "Types algébriques abstraits"
+ },
+ "aliases": {"meca": "physique/S1/Mécanique", "taa": "algo/S1/TAA"}
+}

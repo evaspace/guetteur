@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "guetteur"
+version = "0.1.0"
+description = "Find exam and test dates in Moodle / school iCal feeds and in a Microsoft 365 school mailbox"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Morgan Pierrefeu" }]
+requires-python = ">=3.9"
+
+[project.scripts]
+guetteur = "guetteur:main"
+epita-mail = "epita_mail:main"
+
+[project.urls]
+Homepage = "https://github.com/evaspace/guetteur"
+
+[tool.setuptools]
+py-modules = ["guetteur", "epita_mail"]
